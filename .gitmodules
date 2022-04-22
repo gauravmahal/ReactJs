@@ -1,3 +1,6 @@
 [submodule "The-Complete-React-Js-and-Redux-Course---Build-Modern-Web-Apps"]
 	path = The-Complete-React-Js-and-Redux-Course---Build-Modern-Web-Apps
 	url = https://github.com/PacktPublishing/The-Complete-React-Js-and-Redux-Course---Build-Modern-Web-Apps.git
+[submodule "photoapp"]
+	path = photoapp
+	url = git@github.com:gauravmahal/photoapp.git
