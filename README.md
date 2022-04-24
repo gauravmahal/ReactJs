@@ -37,3 +37,9 @@
     
 ## Prop-Types
     * Require props must be passed in to the functions or abject or else it will throw error  
+
+## [Lifecycle Methods](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+    * constructor - called even before components instatnce is even inserted into DOM
+    * componentWillMount <deprecated> - called before components is inserted into the Dom 
+    * componentDidMount - called after components is inserted into the Dom 
+    * componentDidUpdate - called whenever a component is re-rendered
