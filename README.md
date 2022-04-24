@@ -24,3 +24,14 @@
 ## Components 
 
 # React- State Management 
+
+## Class Components based photoapp 
+    * https://github.com/gauravmahal/photoapp/tree/c0ee30cdb60e4eff01038f1f6a97f2b0bd5147ad
+
+## Functional Components 
+    * Convert class to function just by returning the value 
+
+## State management 
+    * Main component constructor is used for initialising the state of the applications
+    * Updating state 
+        * 
