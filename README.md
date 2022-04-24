@@ -34,4 +34,6 @@
 ## State management 
     * Main component constructor is used for initialising the state of the applications
     * Updating state 
-        * 
+    
+## Prop-Types
+    * Require props must be passed in to the functions or abject or else it will throw error  
