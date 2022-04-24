@@ -1,3 +1,5 @@
+# [The Complete React Js and Redux Course - Build Modern Web Apps](https://learning.oreilly.com/videos/the-complete-react/9781789950656/)
+
 # ES6 Crash Course 
     * Always use let over var as
         let - block scoped and does not allow redeclaration of variable in the scope
@@ -43,3 +45,19 @@
     * componentWillMount <deprecated> - called before components is inserted into the Dom 
     * componentDidMount - called after components is inserted into the Dom 
     * componentDidUpdate - called whenever a component is re-rendered
+
+# React-Router
+    * Adding fucntionality to the page to enable single-Page
+    * It become difficult to maintain navigation on url only through state management that's why wen need react router 
+
+Divided into 3 parts 
+
+## Browser-Router
+    * used to keep track of URL changes 
+
+## Link
+    * component is used to invoke a change in the URL upon it being clicked on kind of hyperlink 
+
+## Route
+    * based on the URL we are going to have routes which contain the paths 
+
