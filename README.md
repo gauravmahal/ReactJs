@@ -76,3 +76,9 @@ C --> A
 ```
 
 [Draw Diagrams With Markdown](https://support.typora.io/Draw-Diagrams-With-Markdown/)
+
+## Store 
+
+## Reducer
+
+## Actions
