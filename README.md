@@ -82,3 +82,7 @@ C --> A
 ## Reducer
 
 ## Actions
+
+## Redux Devtools
+[Github Repo](https://github.com/reduxjs/redux-devtools)
+    * browser extension to show state changes 
