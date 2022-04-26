@@ -68,12 +68,11 @@ Divided into 3 parts
     * All state changes are happening at a single place at root reducer 
     * Managing state is lot more predictable
 
-    Action -->> Reducer --->> Store -->>
-        <<------------------------------
 ```mermaid
 graph LR
-A[Action] --> B[Reducer]
-B --> C[Store]
+A[Store] --> B[Action]
+B --> C[Reducer]
 C --> A
 ```
-    * [Draw Diagrams With Markdown](https://support.typora.io/Draw-Diagrams-With-Markdown/)
+
+[Draw Diagrams With Markdown](https://support.typora.io/Draw-Diagrams-With-Markdown/)
