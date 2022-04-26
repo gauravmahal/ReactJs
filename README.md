@@ -60,3 +60,20 @@ Divided into 3 parts
 
 ## Route
     * based on the URL we are going to have routes which contain the paths 
+
+# Redux
+    * Used for managing state of application
+    * Give us an organised way to STORE our data 
+    * State is Read-only 
+    * All state changes are happening at a single place at root reducer 
+    * Managing state is lot more predictable
+
+    Action -->> Reducer --->> Store -->>
+        <<------------------------------
+```mermaid
+graph LR
+A[Action] --> B[Reducer]
+B --> C[Store]
+C --> A
+```
+    * [Draw Diagrams With Markdown](https://support.typora.io/Draw-Diagrams-With-Markdown/)
