@@ -60,4 +60,3 @@ Divided into 3 parts
 
 ## Route
     * based on the URL we are going to have routes which contain the paths 
-
