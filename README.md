@@ -86,3 +86,13 @@ C --> A
 ## Redux Devtools
 [Github Repo](https://github.com/reduxjs/redux-devtools)
     * browser extension to show state changes 
+
+# Firebase 
+    * Real time dabase where we can save all our data that is inside our redux store
+
+```mermaid
+graph LR
+A[Action Creators] --> B[Firebase Method]
+B --> |Update Database|C[Callback]
+C --> D[Action]
+```
