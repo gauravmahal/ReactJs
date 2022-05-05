@@ -96,3 +96,18 @@ A[Action Creators] --> B[Firebase Method]
 B --> |Update Database|C[Callback]
 C --> D[Action]
 ```
+
+# React Hooks
+    * they are use at the root of the functional component 
+    * useState - for managing the state of the functional component 
+            All states updates from one and the same synchronous event handler are batched together
+    * useEffect - is used to manage the side effect i.e. what ever we can not manage using the normal component rendering flow
+            gets executed right after component render cycle and it is executed for every render cycle 
+            use it like this (**[]** as second argument) then useEffect() acts like **componentDidMount** and it run **ONLY ONCE** (after the first render)
+            It can return a function which will be run when this useEffect will be run next time i.e. act like a clean up function 
+            **Note** - If you have [] as dependencies then cleanup function runs when the component gets unmounted 
+    * useCallback - allows to pass our function to only change when one of the inputs changes. It caches the function and it survives re-render cycle 
+    * useRef - allows us to create a reference 
+    * useReducer - used in place of useState when we have complex state logic to maintain 
+    * useContext - 
+    * useMemo - hook where you can save a value so it is not recreated with every render cycle
