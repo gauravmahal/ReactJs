@@ -111,3 +111,4 @@ C --> D[Action]
     * useReducer - used in place of useState when we have complex state logic to maintain 
     * useContext - 
     * useMemo - hook where you can save a value so it is not recreated with every render cycle
+    * Custom hooks - share stateful logic across components and not data  
