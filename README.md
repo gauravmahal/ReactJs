@@ -112,3 +112,8 @@ C --> D[Action]
     * useContext - 
     * useMemo - hook where you can save a value so it is not recreated with every render cycle
     * Custom hooks - share stateful logic across components and not data  
+
+# Async/Await
+    * Async must be present, always return a promise
+    * Await wait till promise is settled 
+    * error handling - try/catch block 

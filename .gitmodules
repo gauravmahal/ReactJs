@@ -4,3 +4,6 @@
 [submodule "photoapp"]
 	path = photoapp
 	url = git@github.com:gauravmahal/photoapp.git
+[submodule "nodeJS_course/node-express-course"]
+	path = nodeJS_course/node-express-course
+	url = git@github.com:gauravmahal/node-express-course.git
