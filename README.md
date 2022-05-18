@@ -117,3 +117,20 @@ C --> D[Action]
     * Async must be present, always return a promise
     * Await wait till promise is settled 
     * error handling - try/catch block 
+
+# [Mocha](https://www.youtube.com/watch?v=NBjYY8P08lI&list=PLgbtO1Bcz4C-vU0JLfDBsZGbSUdNX4mQ8&index=1)
+    * expect in chai -> what desired output you need 
+    * SPY in sinon -> it will spy the function call and it will create a wrapper around the add method 
+        * sinon provide it's own assert method like sinon.assert.calledOnce()
+    * MOCK in sinon -> expectation is used. when calling function has no dependency on the function call then we can mock the function and see what expectation is it called with  
+    * stubs in sinon -> when we want to use the returing value of the function then we can use stubs means it returning some perticular value 
+        * can do what should return on first call and what on second call
+    * Promise -> done can be pass as an argument of promise then we need to use timeout for waiting.
+    * Chai-as-promise -> better way to test promise (chai.use(chaiaspromise))
+    * interset a xhr call -> we should use nock node package 
+        * nock("url").post("\remaining tree").reply(200,{json data})
+    * Hooks -> before , after, beforeEach and afterEach hooks for better writing of test case 
+    * nyc for reporting unit-test -> --reporter==text or --reporter==lcov for web page for js file 
+        * .nycrc.json -> what files to ignore or include, what should be coverages of lines, function etc.
+    * skip in mocha -> for skipping the test case from being run 
+    * only in mocha -> for running specific test case 
